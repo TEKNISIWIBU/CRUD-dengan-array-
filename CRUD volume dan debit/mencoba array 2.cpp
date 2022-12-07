@@ -25,6 +25,8 @@ void hitung(){
     int v,w;
     do{
     display();
+	cout <<"pilih volume "<<endl;
+        cin >> v;
 	cout << "masukkan waktu " << endl;
 	cin >> w;  
 	debit = volumetabung[v-1]/w;
